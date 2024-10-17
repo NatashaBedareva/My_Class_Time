@@ -16,8 +16,4 @@ target_link_libraries(test_time_app PRIVATE GTest::gtest_main)
 include(GoogleTest)
 gtest_discover_tests(test_time_app)
 
-#cmake --build build
-#cd build/test/
-# ctest
-#./Debug/test_time_app
 

@@ -8,6 +8,3 @@ enable_testing()
 add_subdirectory(test)
 add_executable(kvadraturawn main.cpp)
 
-#cmake -S. -Bbuild -DBUILD_MOCK=OFF --fresh
-#cmake --build build
-#./build/Debug/kvadraturawn.exe
