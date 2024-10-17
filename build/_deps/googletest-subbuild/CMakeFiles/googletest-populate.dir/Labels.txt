@@ -1,0 +1,14 @@
+# Target labels
+ googletest-populate
+# Source files and their labels
+C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate
+C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/_deps/googletest-subbuild/CMakeFiles/9bcd9f138693e98858afebe36d5be217/googletest-populate.rule
+C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/_deps/googletest-subbuild/CMakeFiles/2c8a2792cc1eb2eb519d43628c545899/googletest-populate-complete.rule
+C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/_deps/googletest-subbuild/CMakeFiles/fe29e528710c6e125162a03c28cd5c8b/googletest-populate-build.rule
+C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/_deps/googletest-subbuild/CMakeFiles/fe29e528710c6e125162a03c28cd5c8b/googletest-populate-configure.rule
+C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/_deps/googletest-subbuild/CMakeFiles/fe29e528710c6e125162a03c28cd5c8b/googletest-populate-download.rule
+C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/_deps/googletest-subbuild/CMakeFiles/fe29e528710c6e125162a03c28cd5c8b/googletest-populate-install.rule
+C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/_deps/googletest-subbuild/CMakeFiles/fe29e528710c6e125162a03c28cd5c8b/googletest-populate-mkdir.rule
+C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/_deps/googletest-subbuild/CMakeFiles/fe29e528710c6e125162a03c28cd5c8b/googletest-populate-patch.rule
+C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/_deps/googletest-subbuild/CMakeFiles/fe29e528710c6e125162a03c28cd5c8b/googletest-populate-test.rule
+C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/_deps/googletest-subbuild/CMakeFiles/fe29e528710c6e125162a03c28cd5c8b/googletest-populate-update.rule

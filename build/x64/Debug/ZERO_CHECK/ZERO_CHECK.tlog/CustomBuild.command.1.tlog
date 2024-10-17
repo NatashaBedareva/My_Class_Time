@@ -1,0 +1,10 @@
+^C:\USERS\BEDAREVA\DOCUMENTS\STADING_NGU\OOP\KVADRATURAWN\BUILD\CMAKEFILES\307BAFCE2FE57A4E8C4E1F502FAF7A3B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn -BC:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/kvadraturawn.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

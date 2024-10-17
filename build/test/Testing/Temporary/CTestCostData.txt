@@ -1,0 +1,7 @@
+TimeTest.BasicAssertions 4 0
+TimeTestSet.BasicAssertions 20 0.000347945
+TimeTestNormilize.BasicAssertions 0 0
+TimeTestNormilize.BasicAssertions2 5 0
+TimeTestCosyruct.BasicAssertions3 18 0.00046205
+---
+TimeTestNormilize.BasicAssertions2

@@ -1,0 +1,108 @@
+Start testing: Oct 17 23:53 Новосибирское стандартное время
+----------------------------------------------------------
+1/3 Testing: TimeTestCosyruct.BasicAssertions3
+1/3 Test: TimeTestCosyruct.BasicAssertions3
+Command: "C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/test/Debug/test_time_app.exe" "--gtest_filter=TimeTestCosyruct.BasicAssertions3" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/test
+"TimeTestCosyruct.BasicAssertions3" start time: Oct 17 23:53 Новосибирское стандартное время
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Bedareva\Documents\STADING_NGU\OOP\kvadraturawn\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TimeTestCosyruct.BasicAssertions3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TimeTestCosyruct
+[ RUN      ] TimeTestCosyruct.BasicAssertions3
+Create new Time. Count = 1
+Create new Time. Count = 2
+Create new Time. Count = 3
+Create new Time. Count = 4
+Destroy Time. Count = 3
+Destroy Time. Count = 2
+Destroy Time. Count = 1
+Destroy Time. Count = 0
+[       OK ] TimeTestCosyruct.BasicAssertions3 (0 ms)
+[----------] 1 test from TimeTestCosyruct (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TimeTestCosyruct.BasicAssertions3" end time: Oct 17 23:53 Новосибирское стандартное время
+"TimeTestCosyruct.BasicAssertions3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: TimeTestSet.BasicAssertions
+2/3 Test: TimeTestSet.BasicAssertions
+Command: "C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/test/Debug/test_time_app.exe" "--gtest_filter=TimeTestSet.BasicAssertions" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/test
+"TimeTestSet.BasicAssertions" start time: Oct 17 23:53 Новосибирское стандартное время
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Bedareva\Documents\STADING_NGU\OOP\kvadraturawn\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TimeTestSet.BasicAssertions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TimeTestSet
+[ RUN      ] TimeTestSet.BasicAssertions
+Create new Time. Count = 1
+6:20:10
+Destroy Time. Count = 0
+[       OK ] TimeTestSet.BasicAssertions (0 ms)
+[----------] 1 test from TimeTestSet (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TimeTestSet.BasicAssertions" end time: Oct 17 23:53 Новосибирское стандартное время
+"TimeTestSet.BasicAssertions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: TimeTestNormilize.BasicAssertions2
+3/3 Test: TimeTestNormilize.BasicAssertions2
+Command: "C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/test/Debug/test_time_app.exe" "--gtest_filter=TimeTestNormilize.BasicAssertions2" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/test
+"TimeTestNormilize.BasicAssertions2" start time: Oct 17 23:53 Новосибирское стандартное время
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Bedareva\Documents\STADING_NGU\OOP\kvadraturawn\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TimeTestNormilize.BasicAssertions2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TimeTestNormilize
+[ RUN      ] TimeTestNormilize.BasicAssertions2
+Create new Time. Count = 1
+Create new Time. Count = 2
+13:6:15
+C:\Users\Bedareva\Documents\STADING_NGU\OOP\kvadraturawn\test\test_time.cpp(162): error: Expected equality of these values:
+  t.getMin()
+    Which is: 6
+  5
+Destroy Time. Count = 1
+Destroy Time. Count = 0
+[  FAILED  ] TimeTestNormilize.BasicAssertions2 (0 ms)
+[----------] 1 test from TimeTestNormilize (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] TimeTestNormilize.BasicAssertions2
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"TimeTestNormilize.BasicAssertions2" end time: Oct 17 23:53 Новосибирское стандартное время
+"TimeTestNormilize.BasicAssertions2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 17 23:53 Новосибирское стандартное время
