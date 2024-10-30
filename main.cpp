@@ -1,4 +1,6 @@
 #include <iostream>
+#include <vector>
+#include <memory>
 
 
 class Time
@@ -121,23 +123,46 @@ int Time::count = 0;
 
 int main() {
 
-    Time t(1,20,50);
-    Time t2(12,-5,6);
-    Time t3(10,10,10);
+//6.1
 
-    t2=t;
-    (t+t2).printTime();
-    (t3-t).printTime();
+    Time *t1 = new Time (20,20,60);
+    t1->printTime();
+    delete t1;
+    t1 = nullptr;
 
-    t.printTime();
-    t2.printTime();
+    Time *t {new Time [3]{Time (10,10,10),Time(20,20,20),Time(10,30,30)}};
 
-    t3+=t;
-    (t3+t);
+    for(int i=0;i<3;i++)
+    {
+        (t[i]).printTime();
+    }
 
-    t3.setHour(5);
-    t3.setMin(10);
-    t3.printTime();
+    delete[] t;
+    t = nullptr;
+
+    std::unique_ptr<Time> t_unique = std::make_unique<Time>(Time (25,25,25));
+    t_unique->setHour(20);
+    t_unique->printTime();
+
+    std::shared_ptr<Time> t_shared1 = std::make_shared<Time>(Time (10,26,26));
+    auto t_shared2 = t_shared1;
+
+    t_shared2->printTime();
+
+
+
+
+
+
+
+    std::vector<Time> t_vector;
+
+    t_vector.push_back(Time(20,20,20));
+
+    for(int i=0;i<t_vector.size();i++)
+    {
+        t_vector[i].printTime();
+    }
 
     return 0;
 }
