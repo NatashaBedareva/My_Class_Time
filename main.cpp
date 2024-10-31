@@ -1,17 +1,36 @@
 #include <iostream>
 #include <vector>
 #include <memory>
+#include <string>
+
+struct WrongAgeExceptionHour {
+    int h;
+    WrongAgeExceptionHour(int hour): h(hour){
+        std::cerr<<"hour is not correct: ";
+    };
+};
+struct WrongAgeExceptionMin {
+    int m;
+    WrongAgeExceptionMin(int min): m(min){
+        std::cerr<<"min is not correct: ";
+    };
+};
+struct WrongAgeExceptionSecond {
+    int s;
+    WrongAgeExceptionSecond(int second): s(second){
+        std::cerr<<"second is not correct: ";
+    };
+};
 
 
-class Time
-{
-    int hour;
-    int min;
-    int second;
+class Time {
+    int hour{};
+    int min{};
+    int second{};
 
 
-    void Normalize()
-    {
+    void Normalize() {
+
 
         if (second >= 60) {
             min += second / 60;
@@ -35,33 +54,54 @@ class Time
         }
     }
 
+    void MyExept(int h=0, int m=0, int s=0)
+    {
+        if(h<0)       throw WrongAgeExceptionHour(h);
+        else if (m<0) throw WrongAgeExceptionMin(m);
+        else if (s<0) throw WrongAgeExceptionSecond(s);
+    }
+
 
 public:
     static int count;
 
-    Time(int h=0, int m=0, int s=0): hour(h),min(m),second(s)
+
+    Time()
     {
+        count++;
+        std::cout<<"Create new Time. Count = "<<count<<std::endl;
+    }
+
+    Time(int h, int m, int s)
+    {
+        hour = h;
+        min = m;
+        second = s;
+
+        MyExept(h,m,s);
+
+
         count++;
         Normalize();
         std::cout<<"Create new Time. Count = "<<count<<std::endl;
     }
 
-    void printTime()
+    void printTime() noexcept
     {
         std::cout<<hour<<':'<<min<<':'<<second<<std::endl;
     }
-    void setHour(int value) {this->hour=value;Normalize();};
-    void setMin (int value) {this->min=value;Normalize();};
-    void setSecond(int value) {this->second=value;Normalize();};
+    void setHour(int value) {this->hour=value;MyExept(hour,min,second);Normalize();};
+    void setMin (int value) {this->min=value;MyExept(hour,min,second);Normalize();};
+    void setSeconds(int value) {this->second=value;MyExept(hour,min,second);Normalize();};
 
-    int ToSeconds(){return (hour*60*60+min*60+second);}
-    int getHoure(){ return this->hour;};
-    int getMin(){ return this->min;};
-    int getSeconds(){ return this->second;};
+    int ToSeconds() noexcept {return (hour*60*60+min*60+second);}
+    int getHoure()noexcept{ return this->hour;};
+    int getMin()noexcept{ return this->min;};
+    int getSeconds()noexcept{ return this->second;};
 
-    int getCount(){return this->count;};
+    int getCount()noexcept{return this->count;};
 
-    Time operator+ (const Time& other) const {
+    Time operator+ (const Time& other) const noexcept{
         Time result;
         result.hour = hour + other.hour;
         result.min = min + other.min;
@@ -70,7 +110,7 @@ public:
         return result;
     }
 
-    Time operator- (const Time& other) const {
+    Time operator- (const Time& other) const noexcept{
         Time result;
         result.hour = hour - other.hour;
         result.min = min - other.min;
@@ -78,7 +118,7 @@ public:
         result.Normalize();
         return result;
     }
-    Time& operator-= (const Time& other) {
+    Time& operator-= (const Time& other) noexcept{
 
         this->hour = this->hour - other.hour;
         this->min = this->min - other.min;
@@ -86,7 +126,7 @@ public:
         this->Normalize();
         return *this;
     }
-    Time& operator+= (const Time& other) {
+    Time& operator+= (const Time& other) noexcept{
 
         this->hour = this->hour + other.hour;
         this->min = this->min + other.min;
@@ -95,7 +135,7 @@ public:
         return *this;
     }
 
-    Time& operator= (const Time& other) {
+    Time& operator= (const Time& other) noexcept{
         this->hour = other.hour;
         this->min = other.min;
         this->second = other.second;
@@ -103,7 +143,7 @@ public:
         return  *this;
     }
 
-    bool operator== (const Time& other) const {
+    bool operator== (const Time& other) const noexcept{
         if ((this->hour == other.hour)&&(this->min == other.min)&&(this->second == other.second))
         {
             return true;
@@ -111,7 +151,7 @@ public:
         return  false;
     }
 
-    ~Time()
+    ~Time() noexcept
     {
         count--;
         std::cout<<"Destroy Time. Count = "<<this->getCount()<<std::endl;
@@ -121,9 +161,50 @@ public:
 
 int Time::count = 0;
 
+
+
 int main() {
 
+//6.2
+    try {
+        Time t_exept {5,8,20};
+    }
+    catch (const WrongAgeExceptionHour& ex) {
+        std::cerr << ex.h;
+        return 1;
+    }
+    catch (const WrongAgeExceptionMin& ex) {
+        std::cerr << ex.m;
+        return 1;
+    }
+    catch (const WrongAgeExceptionSecond& ex) {
+        std::cerr << ex.s;
+        return 1;
+    }
+
+    Time t_exept;
+
+    try {
+        t_exept.setSeconds(-50);
+    }
+    catch (const WrongAgeExceptionHour& ex) {
+        std::cerr << ex.h;
+        return 1;
+    }
+    catch (const WrongAgeExceptionMin& ex) {
+        std::cerr << ex.m;
+        return 1;
+    }
+    catch (const WrongAgeExceptionSecond& ex) {
+        std::cerr << ex.s;
+        return 1;
+    }
+
+
+
+
 //6.1
+/*
 
     Time *t1 = new Time (20,20,60);
     t1->printTime();
@@ -150,11 +231,6 @@ int main() {
     t_shared2->printTime();
 
 
-
-
-
-
-
     std::vector<Time> t_vector;
 
     t_vector.push_back(Time(20,20,20));
@@ -163,6 +239,6 @@ int main() {
     {
         t_vector[i].printTime();
     }
-
+*/
     return 0;
 }
