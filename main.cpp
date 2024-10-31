@@ -157,48 +157,121 @@ public:
         std::cout<<"Destroy Time. Count = "<<this->getCount()<<std::endl;
     }
 
-};
+    friend class SimpleWatch;
+    friend class Watch;
 
+};
 int Time::count = 0;
 
+
+class Watch
+{
+    bool formatIs24 = true;
+public:
+    void WhatTime(const Time& t) const
+    {
+        if (formatIs24) std::cout<<t.hour<<":"<<t.min<<":"<<t.second<<std::endl;
+        else
+        {
+            if(t.hour>12) std::cout<<t.hour-12<<":"<<t.min<<":"<<t.second<<" PM"<<std::endl;
+            else std::cout<<t.hour<<":"<<t.min<<":"<<t.second<<" AM"<<std::endl;
+        }
+    }
+    void setTimeHour(Time& t,int h){t.hour = h;}
+    void setTimeMin(Time& t, int m){t.min = m;}
+    void setTimeSecond(Time& t, int s){t.second = s;}
+
+    void setFormat(bool f)
+    {
+        formatIs24 = f;
+    }
+
+    friend class SimpleWatch;
+};
+
+class SimpleWatch
+{
+
+public:
+
+    void WhatTime(const Time& t) const {
+        std::cout << t.hour << ":" << t.min << ":" << t.second << std::endl;
+    }
+    void WhatTime(const Time& t, const Watch& w) const
+    {
+        if (w.formatIs24) std::cout<<t.hour<<":"<<t.min<<":"<<t.second<<std::endl;
+        else
+        {
+            if(t.hour>12) std::cout<<t.hour-12<<":"<<t.min<<":"<<t.second<<" PM"<<std::endl;
+            else std::cout<<t.hour<<":"<<t.min<<":"<<t.second<<" AM"<<std::endl;
+        }
+    }
+    void setTimeHour(Time& t,int h){t.hour = h;}
+    void setTimeMin(Time& t, int m){t.min = m;}
+    void setTimeSecond(Time& t, int s){t.second = s;}
+
+};
 
 
 int main() {
 
+//7.1
+    {
+        Time t{10, 30, 45};
+        SimpleWatch simpleWatch;
+        Watch watch;
+
+        simpleWatch.WhatTime(t);
+        watch.WhatTime(t);
+
+        simpleWatch.setTimeHour(t, 20);
+
+        simpleWatch.WhatTime(t);
+        watch.WhatTime(t);
+
+        watch.setFormat(false);
+        simpleWatch.WhatTime(t,watch);
+    }
+
+
 //6.2
-    try {
-        Time t_exept {5,8,20};
-    }
-    catch (const WrongAgeExceptionHour& ex) {
-        std::cerr << ex.h;
-        return 1;
-    }
-    catch (const WrongAgeExceptionMin& ex) {
-        std::cerr << ex.m;
-        return 1;
-    }
-    catch (const WrongAgeExceptionSecond& ex) {
-        std::cerr << ex.s;
-        return 1;
+
+    {
+        try {
+            Time t_exept {5,8,20};
+        }
+        catch (const WrongAgeExceptionHour& ex) {
+            std::cerr << ex.h;
+            return 1;
+        }
+        catch (const WrongAgeExceptionMin& ex) {
+            std::cerr << ex.m;
+            return 1;
+        }
+        catch (const WrongAgeExceptionSecond& ex) {
+            std::cerr << ex.s;
+            return 1;
+        }
+
+        Time t_exept;
+
+        try {
+            t_exept.setSeconds(-50);
+        }
+        catch (const WrongAgeExceptionHour& ex) {
+            std::cerr << ex.h;
+            return 1;
+        }
+        catch (const WrongAgeExceptionMin& ex) {
+            std::cerr << ex.m;
+            return 1;
+        }
+        catch (const WrongAgeExceptionSecond& ex) {
+            std::cerr << ex.s;
+            return 1;
+        }
     }
 
-    Time t_exept;
-
-    try {
-        t_exept.setSeconds(-50);
-    }
-    catch (const WrongAgeExceptionHour& ex) {
-        std::cerr << ex.h;
-        return 1;
-    }
-    catch (const WrongAgeExceptionMin& ex) {
-        std::cerr << ex.m;
-        return 1;
-    }
-    catch (const WrongAgeExceptionSecond& ex) {
-        std::cerr << ex.s;
-        return 1;
-    }
 
 
 
@@ -206,39 +279,43 @@ int main() {
 //6.1
 /*
 
-    Time *t1 = new Time (20,20,60);
-    t1->printTime();
-    delete t1;
-    t1 = nullptr;
-
-    Time *t {new Time [3]{Time (10,10,10),Time(20,20,20),Time(10,30,30)}};
-
-    for(int i=0;i<3;i++)
     {
-        (t[i]).printTime();
-    }
+        Time *t1 = new Time (20,20,60);
+        t1->printTime();
+        delete t1;
+        t1 = nullptr;
 
-    delete[] t;
-    t = nullptr;
+        Time *t {new Time [3]{Time (10,10,10),Time(20,20,20),Time(10,30,30)}};
 
-    std::unique_ptr<Time> t_unique = std::make_unique<Time>(Time (25,25,25));
-    t_unique->setHour(20);
-    t_unique->printTime();
+        for(int i=0;i<3;i++)
+        {
+            (t[i]).printTime();
+        }
 
-    std::shared_ptr<Time> t_shared1 = std::make_shared<Time>(Time (10,26,26));
-    auto t_shared2 = t_shared1;
+        delete[] t;
+        t = nullptr;
 
-    t_shared2->printTime();
+        std::unique_ptr<Time> t_unique = std::make_unique<Time>(Time (25,25,25));
+        t_unique->setHour(20);
+        t_unique->printTime();
+
+        std::shared_ptr<Time> t_shared1 = std::make_shared<Time>(Time (10,26,26));
+        auto t_shared2 = t_shared1;
+
+        t_shared2->printTime();
 
 
-    std::vector<Time> t_vector;
+        std::vector<Time> t_vector;
 
-    t_vector.push_back(Time(20,20,20));
+        t_vector.push_back(Time(20,20,20));
 
-    for(int i=0;i<t_vector.size();i++)
-    {
-        t_vector[i].printTime();
+        for(int i=0;i<t_vector.size();i++)
+        {
+            t_vector[i].printTime();
+        }
     }
 */
+
+
     return 0;
 }
