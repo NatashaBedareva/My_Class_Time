@@ -212,9 +212,66 @@ public:
 
 };
 
+class Cuckoo_Clok: public Time
+{
+
+public:
+    Cuckoo_Clok()
+    {
+        std::cout<<"Create Cuckoo_Clok\n";
+    }
+    ~Cuckoo_Clok()
+    {
+        std::cout<<"Destroy Cuckoo_Clok\n";
+    }
+};
+class Wall_Clock:public Time
+{
+
+public:
+    Wall_Clock()
+    {
+        std::cout<<"Create Wall_Clock\n";
+    }
+    ~Wall_Clock()
+    {
+        std::cout<<"Destroy Wall_Clock\n";
+    }
+
+};
+class Hendel_Watsh:public Time
+{
+
+public:
+
+    Hendel_Watsh()
+    {
+        std::cout<<"Create Hendel_Watsh\n";
+    }
+    ~Hendel_Watsh()
+    {
+        std::cout<<"Destroy Hendel_Watsh\n";
+    }
+};
+
+class Smart_Watch:public Hendel_Watsh{
+
+public:
+    Smart_Watch()
+    {
+        std::cout<<"Create Smart_Watch\n";
+    }
+    ~Smart_Watch()
+    {
+        std::cout<<"Destroy Smart_Watch\n";
+    }
+};
+
 
 int main() {
 
+
+    std::cout<<"\n------7.1-----\n";
 //7.1
     {
         Time t{10, 30, 45};
@@ -233,9 +290,20 @@ int main() {
         simpleWatch.WhatTime(t,watch);
     }
 
+    std::cout<<"\n------7.2-----\n";
+//7.2
+
+    {
+        Cuckoo_Clok cloc1;
+        Wall_Clock cloc2;
+        Hendel_Watsh cloc3;
+        Smart_Watch cloc4;
+    }
+
 
 //6.2
 
+    std::cout<<"\n------6.2-----\n";
     {
         try {
             Time t_exept {5,8,20};
@@ -271,8 +339,6 @@ int main() {
             return 1;
         }
     }
-
-
 
 
 
