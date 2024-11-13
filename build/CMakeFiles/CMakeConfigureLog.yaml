@@ -26,7 +26,7 @@ events:
       Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
       (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
       
-      Сборка начата 17.10.2024 23:52:46.
+      Сборка начата 14.11.2024 0:01:24.
       Проект "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
       PrepareForBuild:
         Создание каталога "Debug\\".
@@ -52,7 +52,7 @@ events:
           Предупреждений: 0
           Ошибок: 0
       
-      Прошло времени 00:00:00.45
+      Прошло времени 00:00:00.46
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -71,8 +71,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-sko2w4"
-      binary: "C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-sko2w4"
+      source: "C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-otn48w"
+      binary: "C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-otn48w"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -82,39 +82,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-sko2w4'
+        Change Dir: 'C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-otn48w'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_29d57.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_37e6d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
         (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
         
-        Сборка начата 17.10.2024 23:52:46.
-        Проект "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sko2w4\\cmTC_29d57.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Сборка начата 14.11.2024 0:01:25.
+        Проект "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-otn48w\\cmTC_37e6d.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_29d57.dir\\Debug\\".
-          Создание каталога "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sko2w4\\Debug\\".
-          Создание каталога "cmTC_29d57.dir\\Debug\\cmTC_29d57.tlog\\".
+          Создание каталога "cmTC_37e6d.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-otn48w\\Debug\\".
+          Создание каталога "cmTC_37e6d.dir\\Debug\\cmTC_37e6d.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_29d57.dir\\Debug\\cmTC_29d57.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Создание "cmTC_37e6d.dir\\Debug\\cmTC_37e6d.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_29d57.dir\\Debug\\\\" /Fd"cmTC_29d57.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_37e6d.dir\\Debug\\\\" /Fd"cmTC_37e6d.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30146 для x64
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
           CMakeCXXCompilerABI.cpp
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_29d57.dir\\Debug\\\\" /Fd"cmTC_29d57.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_37e6d.dir\\Debug\\\\" /Fd"cmTC_37e6d.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sko2w4\\Debug\\cmTC_29d57.exe" /INCREMENTAL /ILK:"cmTC_29d57.dir\\Debug\\cmTC_29d57.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-sko2w4/Debug/cmTC_29d57.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-sko2w4/Debug/cmTC_29d57.lib" /MACHINE:X64  /machine:x64 cmTC_29d57.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_29d57.vcxproj -> C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sko2w4\\Debug\\cmTC_29d57.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-otn48w\\Debug\\cmTC_37e6d.exe" /INCREMENTAL /ILK:"cmTC_37e6d.dir\\Debug\\cmTC_37e6d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-otn48w/Debug/cmTC_37e6d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-otn48w/Debug/cmTC_37e6d.lib" /MACHINE:X64  /machine:x64 cmTC_37e6d.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_37e6d.vcxproj -> C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-otn48w\\Debug\\cmTC_37e6d.exe
         FinalizeBuildStatus:
-          Файл "cmTC_29d57.dir\\Debug\\cmTC_29d57.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_29d57.dir\\Debug\\cmTC_29d57.tlog\\cmTC_29d57.lastbuildstate".
-        Сборка проекта "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sko2w4\\cmTC_29d57.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_37e6d.dir\\Debug\\cmTC_37e6d.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_37e6d.dir\\Debug\\cmTC_37e6d.tlog\\cmTC_37e6d.lastbuildstate".
+        Сборка проекта "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-otn48w\\cmTC_37e6d.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0
             Ошибок: 0
         
-        Прошло времени 00:00:00.34
+        Прошло времени 00:00:00.35
         
       exitCode: 0
   -
@@ -163,7 +163,7 @@ events:
       Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
       (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
       
-      Сборка начата 17.10.2024 23:52:47.
+      Сборка начата 14.11.2024 0:01:29.
       Проект "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
       PrepareForBuild:
         Создание каталога "Debug\\".
@@ -189,7 +189,7 @@ events:
           Предупреждений: 0
           Ошибок: 0
       
-      Прошло времени 00:00:00.36
+      Прошло времени 00:00:00.35
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -208,8 +208,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-fqkx91"
-      binary: "C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-fqkx91"
+      source: "C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-6dedj8"
+      binary: "C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-6dedj8"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -217,33 +217,33 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-fqkx91'
+        Change Dir: 'C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-6dedj8'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_c1eb2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_6cc2c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
         (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
         
-        Сборка начата 17.10.2024 23:52:48.
-        Проект "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fqkx91\\cmTC_c1eb2.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Сборка начата 14.11.2024 0:01:29.
+        Проект "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dedj8\\cmTC_6cc2c.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_c1eb2.dir\\Debug\\".
-          Создание каталога "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fqkx91\\Debug\\".
-          Создание каталога "cmTC_c1eb2.dir\\Debug\\cmTC_c1eb2.tlog\\".
+          Создание каталога "cmTC_6cc2c.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dedj8\\Debug\\".
+          Создание каталога "cmTC_6cc2c.dir\\Debug\\cmTC_6cc2c.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_c1eb2.dir\\Debug\\cmTC_c1eb2.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Создание "cmTC_6cc2c.dir\\Debug\\cmTC_6cc2c.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c1eb2.dir\\Debug\\\\" /Fd"cmTC_c1eb2.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6cc2c.dir\\Debug\\\\" /Fd"cmTC_6cc2c.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30146 для x64
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
           CMakeCCompilerABI.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c1eb2.dir\\Debug\\\\" /Fd"cmTC_c1eb2.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6cc2c.dir\\Debug\\\\" /Fd"cmTC_6cc2c.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fqkx91\\Debug\\cmTC_c1eb2.exe" /INCREMENTAL /ILK:"cmTC_c1eb2.dir\\Debug\\cmTC_c1eb2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-fqkx91/Debug/cmTC_c1eb2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-fqkx91/Debug/cmTC_c1eb2.lib" /MACHINE:X64  /machine:x64 cmTC_c1eb2.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_c1eb2.vcxproj -> C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fqkx91\\Debug\\cmTC_c1eb2.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dedj8\\Debug\\cmTC_6cc2c.exe" /INCREMENTAL /ILK:"cmTC_6cc2c.dir\\Debug\\cmTC_6cc2c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-6dedj8/Debug/cmTC_6cc2c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-6dedj8/Debug/cmTC_6cc2c.lib" /MACHINE:X64  /machine:x64 cmTC_6cc2c.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_6cc2c.vcxproj -> C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dedj8\\Debug\\cmTC_6cc2c.exe
         FinalizeBuildStatus:
-          Файл "cmTC_c1eb2.dir\\Debug\\cmTC_c1eb2.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_c1eb2.dir\\Debug\\cmTC_c1eb2.tlog\\cmTC_c1eb2.lastbuildstate".
-        Сборка проекта "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fqkx91\\cmTC_c1eb2.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_6cc2c.dir\\Debug\\cmTC_6cc2c.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_6cc2c.dir\\Debug\\cmTC_6cc2c.tlog\\cmTC_6cc2c.lastbuildstate".
+        Сборка проекта "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dedj8\\cmTC_6cc2c.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0
@@ -292,8 +292,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-2vrbsx"
-      binary: "C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-2vrbsx"
+      source: "C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-0jkhlp"
+      binary: "C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-0jkhlp"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -301,39 +301,39 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-2vrbsx'
+        Change Dir: 'C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-0jkhlp'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_52422.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_6e703.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
         (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
         
-        Сборка начата 17.10.2024 23:52:49.
-        Проект "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2vrbsx\\cmTC_52422.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Сборка начата 14.11.2024 0:01:30.
+        Проект "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0jkhlp\\cmTC_6e703.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_52422.dir\\Debug\\".
-          Создание каталога "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2vrbsx\\Debug\\".
-          Создание каталога "cmTC_52422.dir\\Debug\\cmTC_52422.tlog\\".
+          Создание каталога "cmTC_6e703.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0jkhlp\\Debug\\".
+          Создание каталога "cmTC_6e703.dir\\Debug\\cmTC_6e703.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_52422.dir\\Debug\\cmTC_52422.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Создание "cmTC_6e703.dir\\Debug\\cmTC_6e703.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_52422.dir\\Debug\\\\" /Fd"cmTC_52422.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2vrbsx\\src.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6e703.dir\\Debug\\\\" /Fd"cmTC_6e703.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0jkhlp\\src.c"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30146 для x64
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
           src.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_52422.dir\\Debug\\\\" /Fd"cmTC_52422.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2vrbsx\\src.c"
-        C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2vrbsx\\src.c(1,10): fatal error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2vrbsx\\cmTC_52422.vcxproj]
-        Сборка проекта "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2vrbsx\\cmTC_52422.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6e703.dir\\Debug\\\\" /Fd"cmTC_6e703.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0jkhlp\\src.c"
+        C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0jkhlp\\src.c(1,10): fatal error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0jkhlp\\cmTC_6e703.vcxproj]
+        Сборка проекта "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0jkhlp\\cmTC_6e703.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
         
         Ошибка сборки.
         
-        "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2vrbsx\\cmTC_52422.vcxproj" (целевой объект по умолчанию) (1) ->
+        "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0jkhlp\\cmTC_6e703.vcxproj" (целевой объект по умолчанию) (1) ->
         (Целевой объект ClCompile) -> 
-          C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2vrbsx\\src.c(1,10): fatal error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2vrbsx\\cmTC_52422.vcxproj]
+          C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0jkhlp\\src.c(1,10): fatal error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0jkhlp\\cmTC_6e703.vcxproj]
         
             Предупреждений: 0
             Ошибок: 1
         
-        Прошло времени 00:00:00.23
+        Прошло времени 00:00:00.24
         
       exitCode: 1
   -
@@ -347,8 +347,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-tgu7vq"
-      binary: "C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-tgu7vq"
+      source: "C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-2f5lgx"
+      binary: "C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-2f5lgx"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -356,41 +356,41 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-tgu7vq'
+        Change Dir: 'C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-2f5lgx'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_a564e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_b7991.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
         (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
         
-        Сборка начата 17.10.2024 23:52:49.
-        Проект "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tgu7vq\\cmTC_a564e.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Сборка начата 14.11.2024 0:01:31.
+        Проект "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2f5lgx\\cmTC_b7991.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_a564e.dir\\Debug\\".
-          Создание каталога "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tgu7vq\\Debug\\".
-          Создание каталога "cmTC_a564e.dir\\Debug\\cmTC_a564e.tlog\\".
+          Создание каталога "cmTC_b7991.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2f5lgx\\Debug\\".
+          Создание каталога "cmTC_b7991.dir\\Debug\\cmTC_b7991.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_a564e.dir\\Debug\\cmTC_a564e.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Создание "cmTC_b7991.dir\\Debug\\cmTC_b7991.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a564e.dir\\Debug\\\\" /Fd"cmTC_a564e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tgu7vq\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b7991.dir\\Debug\\\\" /Fd"cmTC_b7991.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2f5lgx\\CheckFunctionExists.c"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30146 для x64
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
           CheckFunctionExists.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a564e.dir\\Debug\\\\" /Fd"cmTC_a564e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tgu7vq\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b7991.dir\\Debug\\\\" /Fd"cmTC_b7991.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2f5lgx\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tgu7vq\\Debug\\cmTC_a564e.exe" /INCREMENTAL /ILK:"cmTC_a564e.dir\\Debug\\cmTC_a564e.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-tgu7vq/Debug/cmTC_a564e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-tgu7vq/Debug/cmTC_a564e.lib" /MACHINE:X64  /machine:x64 cmTC_a564e.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tgu7vq\\cmTC_a564e.vcxproj]
-        Сборка проекта "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tgu7vq\\cmTC_a564e.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2f5lgx\\Debug\\cmTC_b7991.exe" /INCREMENTAL /ILK:"cmTC_b7991.dir\\Debug\\cmTC_b7991.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-2f5lgx/Debug/cmTC_b7991.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-2f5lgx/Debug/cmTC_b7991.lib" /MACHINE:X64  /machine:x64 cmTC_b7991.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2f5lgx\\cmTC_b7991.vcxproj]
+        Сборка проекта "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2f5lgx\\cmTC_b7991.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
         
         Ошибка сборки.
         
-        "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tgu7vq\\cmTC_a564e.vcxproj" (целевой объект по умолчанию) (1) ->
+        "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2f5lgx\\cmTC_b7991.vcxproj" (целевой объект по умолчанию) (1) ->
         (Целевой объект Link) -> 
-          LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tgu7vq\\cmTC_a564e.vcxproj]
+          LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2f5lgx\\cmTC_b7991.vcxproj]
         
             Предупреждений: 0
             Ошибок: 1
         
-        Прошло времени 00:00:00.29
+        Прошло времени 00:00:00.31
         
       exitCode: 1
   -
@@ -404,8 +404,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-3rmiqd"
-      binary: "C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-3rmiqd"
+      source: "C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-iexo27"
+      binary: "C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-iexo27"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -413,36 +413,36 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-3rmiqd'
+        Change Dir: 'C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-iexo27'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_7f556.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_430ab.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
         (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
         
-        Сборка начата 17.10.2024 23:52:50.
-        Проект "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3rmiqd\\cmTC_7f556.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Сборка начата 14.11.2024 0:01:31.
+        Проект "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iexo27\\cmTC_430ab.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_7f556.dir\\Debug\\".
-          Создание каталога "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3rmiqd\\Debug\\".
-          Создание каталога "cmTC_7f556.dir\\Debug\\cmTC_7f556.tlog\\".
+          Создание каталога "cmTC_430ab.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iexo27\\Debug\\".
+          Создание каталога "cmTC_430ab.dir\\Debug\\cmTC_430ab.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_7f556.dir\\Debug\\cmTC_7f556.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Создание "cmTC_430ab.dir\\Debug\\cmTC_430ab.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7f556.dir\\Debug\\\\" /Fd"cmTC_7f556.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3rmiqd\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_430ab.dir\\Debug\\\\" /Fd"cmTC_430ab.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iexo27\\CheckFunctionExists.c"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30146 для x64
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
           CheckFunctionExists.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7f556.dir\\Debug\\\\" /Fd"cmTC_7f556.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3rmiqd\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_430ab.dir\\Debug\\\\" /Fd"cmTC_430ab.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iexo27\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3rmiqd\\Debug\\cmTC_7f556.exe" /INCREMENTAL /ILK:"cmTC_7f556.dir\\Debug\\cmTC_7f556.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-3rmiqd/Debug/cmTC_7f556.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-3rmiqd/Debug/cmTC_7f556.lib" /MACHINE:X64  /machine:x64 cmTC_7f556.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3rmiqd\\cmTC_7f556.vcxproj]
-        Сборка проекта "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3rmiqd\\cmTC_7f556.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iexo27\\Debug\\cmTC_430ab.exe" /INCREMENTAL /ILK:"cmTC_430ab.dir\\Debug\\cmTC_430ab.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-iexo27/Debug/cmTC_430ab.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Bedareva/Documents/STADING_NGU/OOP/kvadraturawn/build/CMakeFiles/CMakeScratch/TryCompile-iexo27/Debug/cmTC_430ab.lib" /MACHINE:X64  /machine:x64 cmTC_430ab.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iexo27\\cmTC_430ab.vcxproj]
+        Сборка проекта "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iexo27\\cmTC_430ab.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
         
         Ошибка сборки.
         
-        "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3rmiqd\\cmTC_7f556.vcxproj" (целевой объект по умолчанию) (1) ->
+        "C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iexo27\\cmTC_430ab.vcxproj" (целевой объект по умолчанию) (1) ->
         (Целевой объект Link) -> 
-          LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3rmiqd\\cmTC_7f556.vcxproj]
+          LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [C:\\Users\\Bedareva\\Documents\\STADING_NGU\\OOP\\kvadraturawn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iexo27\\cmTC_430ab.vcxproj]
         
             Предупреждений: 0
             Ошибок: 1

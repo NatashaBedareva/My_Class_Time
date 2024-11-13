@@ -27,11 +27,10 @@ class Time {
     int hour{};
     int min{};
     int second{};
+    static int count;
 
 
     void Normalize() {
-
-
         if (second >= 60) {
             min += second / 60;
             second %= 60;
@@ -39,7 +38,6 @@ class Time {
             min -= (-second + 59) / 60;
             second = (second % 60 + 60) % 60;
         }
-
         if (min >= 60) {
             hour += min / 60;
             min %= 60;
@@ -58,13 +56,11 @@ class Time {
     {
         if(h<0)       throw WrongAgeExceptionHour(h);
         else if (m<0) throw WrongAgeExceptionMin(m);
-        else if (s<0) throw WrongAgeExceptionSecond(s);
+        else throw WrongAgeExceptionSecond(s);
     }
 
 
 public:
-    static int count;
-
 
     Time()
     {
@@ -80,9 +76,16 @@ public:
 
         MyExept(h,m,s);
 
-
         count++;
         Normalize();
+        std::cout<<"Create new Time. Count = "<<count<<std::endl;
+    }
+
+    Time(const Time & time) {
+        count++;
+        hour = time.hour;
+        min = time.min;
+        second = time.second;
         std::cout<<"Create new Time. Count = "<<count<<std::endl;
     }
 
@@ -94,11 +97,10 @@ public:
     void setMin (int value) {this->min=value;MyExept(hour,min,second);Normalize();};
     void setSeconds(int value) {this->second=value;MyExept(hour,min,second);Normalize();};
 
-    int ToSeconds() noexcept {return (hour*60*60+min*60+second);}
+    int ToSeconds() noexcept {return (hour*60*60+min*60+second);} //эти дружестенены к WATCH
     int getHoure()noexcept{ return this->hour;};
     int getMin()noexcept{ return this->min;};
     int getSeconds()noexcept{ return this->second;};
-
     int getCount()noexcept{return this->count;};
 
     Time operator+ (const Time& other) const noexcept{
@@ -158,11 +160,10 @@ public:
     }
 
     friend class SimpleWatch;
-    friend class Watch;
-
+    friend class Watch; // дружесвенные фун
 };
-int Time::count = 0;
 
+int Time::count = 0;
 
 class Watch
 {
@@ -212,7 +213,13 @@ public:
 
 };
 
-class Cuckoo_Clok: public Time
+class Mechanism
+{
+public:
+    Time t;
+};
+
+class Cuckoo_Clok: public Mechanism
 {
 
 public:
@@ -225,7 +232,7 @@ public:
         std::cout<<"Destroy Cuckoo_Clok\n";
     }
 };
-class Wall_Clock:public Time
+class Wall_Clock:public Mechanism
 {
 
 public:
@@ -239,13 +246,15 @@ public:
     }
 
 };
-class Hendel_Watsh:public Time
+
+class Hendel_Watsh:public Mechanism
 {
 
 public:
 
     Hendel_Watsh()
     {
+
         std::cout<<"Create Hendel_Watsh\n";
     }
     ~Hendel_Watsh()
@@ -273,6 +282,7 @@ int main() {
 
     std::cout<<"\n------7.1-----\n";
 //7.1
+/*
     {
         Time t{10, 30, 45};
         SimpleWatch simpleWatch;
@@ -289,7 +299,7 @@ int main() {
         watch.setFormat(false);
         simpleWatch.WhatTime(t,watch);
     }
-
+*/
     std::cout<<"\n------7.2-----\n";
 //7.2
 
@@ -300,9 +310,8 @@ int main() {
         Smart_Watch cloc4;
     }
 
-
 //6.2
-
+/*
     std::cout<<"\n------6.2-----\n";
     {
         try {
@@ -324,7 +333,7 @@ int main() {
         Time t_exept;
 
         try {
-            t_exept.setSeconds(-50);
+            t_exept.setSeconds(50);
         }
         catch (const WrongAgeExceptionHour& ex) {
             std::cerr << ex.h;
@@ -343,13 +352,13 @@ int main() {
 
 
 //6.1
-/*
+    std::cout<<"\n------6.1-----\n";
 
     {
         Time *t1 = new Time (20,20,60);
         t1->printTime();
-        delete t1;
-        t1 = nullptr;
+        ///delete t1;
+        ////t1 = nullptr;
 
         Time *t {new Time [3]{Time (10,10,10),Time(20,20,20),Time(10,30,30)}};
 
@@ -358,8 +367,8 @@ int main() {
             (t[i]).printTime();
         }
 
-        delete[] t;
-        t = nullptr;
+        //delete[] t;
+        //t = nullptr;
 
         std::unique_ptr<Time> t_unique = std::make_unique<Time>(Time (25,25,25));
         t_unique->setHour(20);
@@ -379,9 +388,10 @@ int main() {
         {
             t_vector[i].printTime();
         }
+
     }
+
+
 */
-
-
     return 0;
 }

@@ -1,7 +1,6 @@
-TimeTest.BasicAssertions 4 0
-TimeTestSet.BasicAssertions 20 0.000347945
-TimeTestNormilize.BasicAssertions 0 0
-TimeTestNormilize.BasicAssertions2 5 0
-TimeTestCosyruct.BasicAssertions3 18 0.00046205
+test_time_app_NOT_BUILT 0 0
+TimeTestCosyruct.BasicAssertions3 1 0.0078124
+TimeTestSet.BasicAssertions 1 0.0062833
+TimeTestNormilize.BasicAssertions2 0 0
 ---
 TimeTestNormilize.BasicAssertions2
